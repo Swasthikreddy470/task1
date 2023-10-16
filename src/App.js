@@ -1,11 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
-import WordCounter from './components/countWord';
+import { Calculator } from './components/Calc';
 function App() {
   return (
     <div className="App">
-      <h1>Responsive Paragraph Word Counter</h1>
-      <WordCounter/> 
+     <Calculator/>
     </div>
   );
 }
